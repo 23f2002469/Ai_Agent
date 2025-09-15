@@ -21,15 +21,15 @@ The agent can search the web, query Wikipedia, and save research results into st
 📂 Project Structure
 .
 ├── tools.py              # Defines search, Wikipedia, and save-to-file tools
-├── agent.py              # Core AI Agent logic
+├── main.py              # Core AI Agent logic
 ├── research_output.txt   # Stores saved research results
-├── .env                  # Environment variables (API keys)
+├── key.env                  # Environment variables (API keys)
 └── README.md             # Project documentation
 
 ⚙️ Installation
 1. Clone the repository
-git clone https://github.com/your-username/ai-research-agent.git
-cd ai-research-agent
+git clone (https://github.com/23f2002469/Ai_Agent.git)
+cd Ai_Agent
 
 2. Create and activate virtual environment
 python -m venv venv
@@ -50,7 +50,7 @@ ANTHROPIC_API_KEY=your_anthropic_api_key
 
 Run the agent:
 
-python agent.py
+python main.py
 
 
 You’ll be prompted:
